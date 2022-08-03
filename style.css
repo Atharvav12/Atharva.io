@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(40, 43, 42);
+    width: 330px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 25px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: lightblue;
+    width: 90vw;
+}
+
+.main_{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.devPic{
+    border-radius: 20px;
+}
+
+.main1{
+    text-align: center;
+    background-color: rgb(224, 176, 176);
+    width: 90vw;
+    padding: 50px 0px;
+    display: flex;
+}
+#check{
+    background-color: lightblue;
+}
+.coding{
+    padding: 54px;
+    padding-top: 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    height: 100px;
+}
+
+.h2{
+    text-align: center;
+}
+
+.container{
+      display: flex; /* isse  vertically divide hora h* */
+}
+
+.infocontainer{
+    /* background-color: rgb(109, 230, 10); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px  auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 50px;
+}
+
+.h{
+    font-size: 30px;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+}
+
+.new{
+    padding-top: 200px;
+}
+.main2{
+    background-color: lightyellow;
+}
+#h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.img{
+    height: 5vh;
+    margin-top: 150px;
+}
+
+.h1{
+    font-size: 30px;
+    padding-top: 50px ;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 24px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(18, 228, 228);
+}
+.devPic img{
+    height: 58vh;
+}
+
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contactform h1{
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 0;
+}
+
+.contactform div{
+    padding: 10px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+     width: 26w;
+     border-radius: 5px;
+     margin: 6px 0 0 0;
+     padding: 3px;
+}
+
+#mail{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    /* font-size: ; */
+}
+
+.frm{
+    font-size: 20px;
+}
+
+.form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
